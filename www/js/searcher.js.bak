@@ -1,0 +1,12 @@
+function search()  {  
+    
+var vO= document.getElementById("id01").value;
+var vT= document.getElementById("id02").value;
+	
+var valores = vO+vT;
+
+if  (valores=="OcotalFarmacias")
+    {document.getElementById("show_resultados").innerHTML=valores;}	
+else { alert(valores)  }
+	
+                             }

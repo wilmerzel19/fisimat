@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calcular Velocidad</title>
+<meta charset="utf-8">
+<script src="/js/w3.js"></script>
+
+
+
+
+
+<link  rel="stylesheet" type="text/css" href="w3.css" />
+<script  src="w3.js"></script>
+<script  src="matematica.js"></script>
+
+<link href="..css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+<style>
+
+a{text-decoration:none}
+</style>
+</head>
+<body>
+<br>
+<div class="w3-center w3-container">
+<div id="home" class="w3-card-4">
+<h3>Calcular Velocidad con M.R.U.</h3>
+<input class="w3-input" type="number" id="d1"placeholder="distancia final"><br>
+<input class="w3-input" type="number" id="d2"placeholder="distancia inicial"><br>
+<input class="w3-input" type="number" id="t1"placeholder="tiempo final">
+<input class="w3-input" type="number" id="t2"placeholder="tiempo inicial">
+
+
+<p id="resultado"></p>
+
+<button onclick="velocidad_mru('d1','d2','t1','t2','resultado')">Calcular Velocidad</button>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hipoenusa</title>
+<meta charset="utf-8">
+<script src="/js/w3.js"></script>
+
+
+
+
+
+<link  href="../css/w3.css" />
+<script  src="../js/w3.js"></script>
+
+<link href="../css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+<style>
+
+a{text-decoration:none}
+</style>
+</head>
+<body>
+<br>
+<div class="w3-center w3-container">
+<div id="home" class="panel">
+
+
+
+
+
+</div>
+</div>
+
+
+<div id="lista" class="panel"   style="display:none">
+
+<div class="w3-container">
+<div class="w3-card-4">
+
+<ul class="w3-ul w3-ul"> 
+<li class="w3-hover-light-blue"><a href="#" >Calcular Hipotenusa</a>
+
+<li class="w3-hover-light-blue"><a href="#">Calcular Area de un Triangulo</a>
+<li class="w3-hover-light-blue"><a href="#">Calcular Perimetro de un Triangulo</a>
+</ul>
+
+</div><br><br>
+
+</div>
+</div>
+
+
+
+
+<div class="w3-bar  w3-bottom w3-xlarge w3-blue">
+ <a href="#" class="w3-bar-item w3-button"onclick="openPanel('home')">
+ <i class="mdi mdi-light mdi-home "></i>
+</a>
+
+
+<a href="#" class="w3-bar-item w3-button w3-hover-black"onclick="openPanel('lista')">
+<i class="mdi mdi-light mdi-book-check-outline"></i>
+ </a>
+ <a href="#" class="w3-bar-item w3-button w3-hover-black"onclick="openPanel('login')">
+<i class="mdi mdi-light mdi-login"></i>
+ </a>
+ 
+
+
+
+</body>
+</html>

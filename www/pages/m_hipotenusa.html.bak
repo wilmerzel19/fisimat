@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hipotenusa</title>
+<meta charset="utf-8">
+<script src="/js/w3.js"></script>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="w3.css" />
+<script  src="w3.js"></script>
+<script  src="matematica.js"></script>
+
+<link href="..css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+<style>
+
+a{text-decoration:none}
+</style>
+</head>
+<body>
+<br>
+<div class="w3-center w3-container">
+<div id="home" class="w3-card-4">
+<h3>Calcular Hipotenusa.</h3>
+<input class="w3-input" type="number" id="altura"placeholder="altura"><br>
+<input class="w3-input" type="number" id="base"placeholder="base">
+
+<p id="resultado"></p>
+
+<button onclick="hipotenusa('altura','base','resultado')">Calcular Hipotenusa</button>
+
+</div>
+
+<br><br>
+</div>
+
+
+
+
+</body>
+</html>

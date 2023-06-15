@@ -1,0 +1,47 @@
+function hipotenusa(b,h,p){
+
+    var x,y;
+
+    x= document.getElementById(b).value;
+    y= document.getElementById(h).value;
+
+    res= Math.sqrt( (x*x)+(y*y));
+	
+ 
+    document.getElementById(p).innerHTML=res;
+
+
+                            }
+							
+	//-----------------------------------------------						
+							
+function velocidad_simple(d,t,p){
+
+    var x,y;
+
+    x= document.getElementById(d).value;
+    y= document.getElementById(t).value;
+
+    res=x/y;
+ 
+    document.getElementById(p).innerHTML=res;
+
+
+                            }
+	//------------------------------------------------						
+							
+function velocidad_mru(di,df,ti,tf,p){
+
+    var x,y;
+
+    x= document.getElementById(df).value;
+	xo=document.getElementById(di).value;
+    y= document.getElementById(tf).value;
+	yo= document.getElementById(ti).value;
+
+    res=(x-xo)/(y-yo);
+ 
+    document.getElementById(p).innerHTML=res;
+
+
+                            }

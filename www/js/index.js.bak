@@ -1,0 +1,36 @@
+
+
+
+
+
+function search(){
+	var vOne= document.getElementById("id01").value;
+	var vTwo= document.getElementById("id02").value;
+	
+	document.getElementById("label").innerHTML="Resultados para su busqueda "+ vTwo+ " de "+ vOne;
+	
+}
+
+
+
+
+
+
+
+			
+				
+function openPanel(panel) {
+	var i;
+	var x = document.getElementsByClassName("panel");
+	for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+	}
+	
+	document.getElementById(panel).style.display = "block"; 
+	
+	
+	
+	
+	}
+
+
